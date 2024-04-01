@@ -1,0 +1,89 @@
+.Nav {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  align-items: center;
+  list-style-type: none;
+  width: 100vw;
+  height: 40px;
+  background-color: rgb(248, 235, 210);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nav11 {
+  color: black;
+  font-size: 18px;
+  transition: 0.3s;
+  display: flex;
+  position: relative;
+  padding: 0;
+  margin-left: 10vw;
+}
+
+.nav11:hover,
+.logo:hover {
+  transition: 0.3s;
+  color: orange;
+  font-size: 25px;
+}
+.logo {
+  position: absolute;
+  left: 30px;
+  transition: 0.3s;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 250px;
+  height: 100%;
+  background-color: #ebebeb;
+  z-index: 1000;
+  transition: 0.5s ease;
+  /* Thêm các thuộc tính CSS khác tùy theo yêu cầu của bạn */
+}
+@keyframes slideIn {
+  0% {
+    right: -300px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+@keyframes slideOut {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: -300px;
+  }
+}
+
+.show {
+  animation: slideIn 0.5s ease forwards;
+}
+.hide {
+  animation: slideOut 0.5s ease forwards;
+}
+.nav12 {
+  width: 200px;
+  height: 40px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.nav12 a {
+  color: rgb(255, 140, 0);
+}
+.nav12:hover {
+  background-color: aqua;
+}
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}

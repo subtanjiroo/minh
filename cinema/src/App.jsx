@@ -5,17 +5,17 @@ import Home from "./pages/Home";
 import Phim from "./pages/phim/phim";
 import ErrorPage from "./pages/ErrorPage";
 import Login from "./pages/Login/login";
-import Navigationbar from "./components/organisms/navigationbar/navigationbar";
+import Nnavigationbar from "./components/organisms/navigationbar/nnavigationbar";
 import SuKien from "./pages/sukien/sukien";
 import Footer from "./components/organisms/footer/footer";
 import Register from "./pages/Login/register";
 import PhimIF from "./pages/PhimIF/PhimIF";
-import Addphim from "./pages/Createphim/addphim";
+import Addphim from "./pages/Createphim/Addphim";
 function App() {
   return (
     <div>
       <header>
-        <Navigationbar />
+        <Nnavigationbar />
       </header>
       <body style={{ display: "flex", justifyContent: "center" }}>
         <Routes>
