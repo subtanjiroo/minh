@@ -1,0 +1,60 @@
+
+.list1 {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 350px 350px;
+  gap :40px;
+  justify-items: center;
+
+}
+.movie img{
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  border: 5px solid black;
+}
+.movie {
+  box-sizing: border-box;
+  position: relative;
+  transition: transform 0.5s ease-in-out;
+  height: 260px;
+  width: 195px;
+}
+
+.movie-info {
+  position: absolute;
+  bottom: 0;
+  width: 195px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  overflow: auto;
+  overflow-x: hidden;
+  text-wrap: wrap;
+  font-size: 15px;
+}
+
+.movie:hover .movie-info {
+  opacity: 1;
+}
+a {
+  text-decoration: none;
+}
+.PaN {
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  position: relative;
+  bottom: 0;
+}
+.Current {
+  margin: 0 10px 0 10px;
+}
+.Next,
+.Pre {
+  border-radius: 5px;
+  border: 1px solid black;
+}
