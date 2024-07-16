@@ -67,6 +67,6 @@
       "last 1 safari version"
     ]
   },
- "homepage": "./index.jsx",
+ "homepage": "./index.js",
   "proxy": "https://be-fmyr.onrender.com"
 }
