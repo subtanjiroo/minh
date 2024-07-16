@@ -1,0 +1,31 @@
+img {
+  max-height: 300px;
+  max-width: 400px;
+}
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+.carousel-item {
+  transition: transform 1s;
+  position: relative;
+  align-items: normal !important;
+  top: 30px;
+}
+
+.custom-carousel .carousel-control-prev-icon,
+.custom-carousel .carousel-control-next-icon {
+  filter: invert(100%); /* Chuyển màu biểu tượng sang trắng */
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  left: 0;
+  height: 400px;
+  z-index: 100;
+  position: relative;
+  background-color: rgb(255, 238, 206);
+  margin-top: 15px;
+}
